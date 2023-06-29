@@ -1,21 +1,23 @@
 import Navbar from "./NavBar";
 import Home from "./Home";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Create from "./Create";
 
 function App() {
-  const title = "Welcome to the new blog";
-  const likes = 50;
-  const person = {
-    name: "yoshi",
-    age: 30,
-  };
-
   return (
-    <div className="App">
-      <Navbar />
-      <div className="content">
-        <Home />
+    <BrowserRouter>
+      <div className="App">
+        <Navbar />
+        <div className="content">
+          <Routes>
+            <Route path="/" element={<Home />} />
+          </Routes>
+          <Routes>
+            <Route path="/create" element={<Create />} />
+          </Routes>
+        </div>
       </div>
-    </div>
+    </BrowserRouter>
   );
 }
 
