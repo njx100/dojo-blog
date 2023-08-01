@@ -8,9 +8,10 @@ const useFetch = (urltoFetch) => {
   useEffect(() => {
     const abortCont = new AbortController();
 
-    fetch(urltoFetch, { signal: abortCont.signal }) // fetch api from local json server
+    fetch(urltoFetch, {
+      signal: abortCont.signal,
+    }) // fetch api from local json server
       .then((res) => {
-        console.log(res);
         if (!res.ok) {
           throw Error("Could not fetch the data for that resource");
         }

@@ -2,20 +2,20 @@
   "blogs": [
     {
       "title": "My new website",
-      "body": "lorem ipsum...",
-      "author": "mario",
+      "body": "In today's fast-paced world, technology has become an integral part of our daily lives. From the moment we wake up to the time we go to bed, technology surrounds us, making our lives more comfortable, efficient, and connected. In this blog, we will explore the ever-evolving landscape of technology and its profound impact on society, exploring how it has transformed industries, education, healthcare, and communication. We will also delve into the potential challenges and ethical considerations that arise in this tech-driven era. So, fasten your seatbelts as we embark on a journey into the exciting world of tech!",
+      "author": "Jack Moise",
       "id": 1
     },
     {
       "title": "Welcome to the party!",
-      "body": "lorem ipsum...",
-      "author": "yoshi",
+      "body": "It brings us immense joy and excitement to extend a warm and heartfelt welcome to each and every one of you. Today, we gather not just as individuals but as a vibrant and united community, ready to share unforgettable moments at a party that promises to be an absolute blast! So, put on your dancing shoes, bring your brightest smiles, and prepare to immerse yourselves in an extraordinary celebration that's all about fun, laughter, and lasting memories.",
+      "author": "Kaven Reight",
       "id": 2
     },
     {
       "title": "Web deb top tips",
-      "body": "lorem ipsum...",
-      "author": "mario",
+      "body": "Greetings to all our valued visitors, customers, and friends! We are thrilled to unveil our latest digital endeavor – a brand new website designed with you in mind. In this blog, we are delighted to take you on a virtual tour of our website and introduce you to its exciting features. From user-friendly navigation to a wealth of valuable content, we've worked tirelessly to create a seamless online experience that reflects our commitment to excellence. So, sit back, relax, and let us guide you through the wonders of our new digital home!",
+      "author": "Peach Hunter",
       "id": 3
     }
   ]
