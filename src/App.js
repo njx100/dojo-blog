@@ -1,9 +1,9 @@
 import Navbar from "./NavBar";
 import Home from "./Home";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 import Create from "./Create";
 import BlogDetails from "./BlogDetails";
-import NotFound from "./NotFound.js";
+import NotFound from "./NotFound";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/create" element={<Create />} />
             <Route path="/blogs/:id" element={<BlogDetails />} />
-            <Route path="*" element={<NotFound />} />
+            <Route path="/*" element={<NotFound />} />
           </Routes>
         </div>
       </div>
