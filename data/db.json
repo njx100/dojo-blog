@@ -1,3 +1,10 @@
 {
-  "blogs": []
+  "blogs": [
+    {
+      "title": "new life",
+      "body": "keep going forward",
+      "author": "",
+      "id": 1
+    }
+  ]
 }
